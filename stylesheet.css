@@ -463,8 +463,8 @@
 		#last-item{font-size:calc(13px + 1.4vw); padding-left:15vw;}
 		#next{font-size:calc(18px + 1.4vw);}
 		#second-page h1 {padding-top:60vh;font-size:calc(13px + 5vw);}
-		#school{padding-top:68vh;font-size:calc(13px + 1.6vw);}
-		#special{ padding-top:76vh;font-size:calc(13px + 1.4vw);}
+		#school{padding-top:68vh;font-size:calc(13px + 1.6vw);padding-left:2vw;}
+		#special{ padding-top:76vh;font-size:calc(13px + 1.4vw);padding-left:2vw;}
 		.academic{ font-size:calc(13px + 1.2vw);padding-top:50vh;}
 		#ll{font-size:calc(13px + 2vw);}
 		#next2{font-size:calc(13px + 1.1vw);}
@@ -485,6 +485,22 @@
 		
 	}
 	
+	
+	@media only screen and (max-width:768px) and (orientation:landscape){
+		body{font-size:9px;}
+		#first-page h1 {font-size:calc(9px + 3.5vw);}
+		#first-page h3 {font-size:calc(9px + 2.5vw);}
+		#last-item{font-size:calc(9px + 1.4vw);padding-left:0vw;}
+		#next{font-size:calc(12px + 1.4vw); padding-right:20vw;}
+		#second-page h1 {padding-top:30vh;}
+		#school{padding-top:50vh; padding-left:15vw;}
+		#special{ padding-top:70vh; padding-left:15vw;}
+		.academic{ padding-top:62vh;padding-left:10vw;}
+		#fourth-page h1 {padding-top:30vh;}
+		#zit{margin-top:28vh;}
+		#last{font-size:calc(10px + 2.5vw);padding-right:22vw;}
+
+	}
 	
 	
 	@media only screen and (max-width:480px){
@@ -511,4 +527,9 @@
 		#zit{margin-top:40vh;}
 		
 	}
+	
+	
+	
+	
+	
 	
