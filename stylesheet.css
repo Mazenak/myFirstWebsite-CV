@@ -428,35 +428,35 @@
 	
 	
 	
-	
-	
-	@media only screen and (max-width:480px){
-		body{font-size:9px;}
-		#first-page h1 {font-size:calc(9px + 3.5vw);}
-		#first-page h3 {font-size:calc(9px + 2.5vw);}
-		#last-item{font-size:calc(9px + 1.4vw);}
-		#next{font-size:calc(12px + 1.4vw);}
-		#second-page h1 {padding-top:60vh;}
-		#fourth-page h1 {padding-top:60vh; padding-left:6.5vw;}
-		#school{padding-top:70vh; padding-left:13vw;}
-		#special{ padding-top:75vh; padding-left:11vw;}
-		.academic{ padding-top:50vh;padding-left:7vw;}
-		#next2{font-size:calc(8px + 1.1vw);}
-		#javaquery{margin-left:38vw; margin-top:10vh;}
-		#htmlcss{margin-left:10vw;}
-		#openweka{margin-left:15vw}
-		#others{margin-left:18.5vw;}
-		#pro{padding-top:16vh;padding-left:25px; padding-right:0px;}
-		#javaquery p{padding-left:1em;}
-		.triangle-isosceles{padding:3% 0%;}
+	@media only screen and (max-width:1024px)  and (min-width:769px){
+		body{font-size:20px;}
+		#first-page h1 {font-size:calc(19px + 3.5vw);}
+		#first-page h3 {font-size:calc(19px + 2.5vw);}
+		#last-item{font-size:calc(19px + 1.4vw); padding-left:15vw;}
+		#next{font-size:calc(23px + 1.4vw); padding-left:10vw;}
+		#second-page h1 {padding-top:45vh; padding-left:15vw; font-size:calc(19px + 5vw);}
+		#school{padding-top:53vh;font-size:calc(17px + 1.6vw); padding-left:10vw;}
+		#special{ padding-top:62vh;font-size:calc(17px + 1.4vw);padding-left:10vw;}
+		.academic{ font-size:calc(16px + 1.2vw);padding-top:40vh; padding-left:5vw;}}
+		#ll{font-size:calc(18px + 2vw);}
+		#next2{font-size:calc(19px + 1.1vw);}
+		#javaquery{margin-left:38vw; margin-top:17.5vh;}
+		#htmlcss{margin-left:12vw;}
+		#pro{font-size:calc(16px + 2.2vw); padding-top:12vh;margin-left:8vw; padding-right:0px;}
+		#openweka{margin-left:20vw}
+		#others{margin-left:18.5vw; margin-bottom:5vh;}
+		#fourth-page h1 {padding-top:45vh; padding-left:15vw; font-size:calc(19px + 5vw);}
+		#zit{margin-top:25vh;font-size:calc(19px + 1.4vw);}
+		#taiba{font-size:calc(19px + 1.4vw);}
+		#twen{font-size:calc(19px + 1.4vw);}
+		.triangle-isosceles{padding:2% 1%;}
 		.triangle-isosceles .tooltiptext{width:45vw;}
-		#last{font-size:calc(8px + 2.5vw);}
-		#zit{margin-top:40vh;}
+		#last{font-size:calc(19px + 2.5vw);}
 		
 	}
 	
 	
-	@media only screen and (max-width:768px){
+	@media only screen and (max-width:768px)  and (min-width:481px){
 		body{font-size:14px;}
 		#first-page h1 {font-size:calc(13px + 3.5vw);}
 		#first-page h3 {font-size:calc(13px + 2.5vw);}
@@ -484,3 +484,31 @@
 		
 		
 	}
+	
+	
+	
+	@media only screen and (max-width:480px){
+		body{font-size:9px;}
+		#first-page h1 {font-size:calc(9px + 3.5vw);}
+		#first-page h3 {font-size:calc(9px + 2.5vw);}
+		#last-item{font-size:calc(9px + 1.4vw);}
+		#next{font-size:calc(12px + 1.4vw);}
+		#second-page h1 {padding-top:60vh;}
+		#fourth-page h1 {padding-top:60vh; padding-left:6.5vw;}
+		#school{padding-top:70vh; padding-left:13vw;}
+		#special{ padding-top:75vh; padding-left:11vw;}
+		.academic{ padding-top:50vh;padding-left:7vw;}
+		#next2{font-size:calc(8px + 1.1vw);}
+		#javaquery{margin-left:38vw; margin-top:10vh;}
+		#htmlcss{margin-left:10vw;}
+		#openweka{margin-left:15vw}
+		#others{margin-left:18.5vw;}
+		#pro{padding-top:16vh;padding-left:25px; padding-right:0px;}
+		#javaquery p{padding-left:1em;}
+		.triangle-isosceles{padding:3% 0%;}
+		.triangle-isosceles .tooltiptext{width:45vw;}
+		#last{font-size:calc(8px + 2.5vw);}
+		#zit{margin-top:40vh;}
+		
+	}
+	
