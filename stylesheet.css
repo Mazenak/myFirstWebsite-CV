@@ -486,6 +486,16 @@
 	}
 	
 	
+	@media only screen and (max-width:1024px) and (orientation:landscape){
+		#second-page h1 {padding-top:35vh;}
+		#school{padding-top:49vh; padding-left:15vw;}
+		#special{ padding-top:62vh; padding-left:15vw;}
+		.academic{ padding-top:47vh;padding-left:10vw;}
+		#fourth-page h1 {padding-top:35vh;}
+		#zit{margin-top:20vh;}
+	}
+	
+	
 	@media only screen and (max-width:768px) and (orientation:landscape){
 		body{font-size:9px;}
 		#first-page h1 {font-size:calc(9px + 3.5vw);}
@@ -499,7 +509,7 @@
 		#fourth-page h1 {padding-top:30vh;}
 		#zit{margin-top:28vh;}
 		#last{font-size:calc(10px + 2.5vw);padding-right:22vw;}
-
+	
 	}
 	
 	
