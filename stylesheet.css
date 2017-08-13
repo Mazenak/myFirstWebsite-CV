@@ -1,0 +1,456 @@
+	body{
+		background-image:url("mazen1.jpg");
+		background-repeat:repeat;
+		background-size:cover;
+		background-color: #333;
+		
+	}
+	
+	#first-page{
+		padding-top:30vh;
+	}
+	
+	#first-page h1{
+		display:table;
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 3.5vw);
+		transition: all .4s ease-in-out;
+		
+		
+	
+		
+	}
+	
+	#first-page h3{
+		display:table;
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 2.5vw);
+		transition: all .4s ease-in-out;
+		padding-left:4vw;
+	}
+	
+	#first-page h1:hover{
+		transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+		
+	
+	}
+	
+	#first-page h3:hover{
+		transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+	}
+	
+	#school{
+		display:block;
+		font-family:'Oswald' , sans-serif;
+		color: white;
+		font-weight:bold;
+		position:absolute;
+		padding-top:47vh;
+		padding-left:9vw;
+		font-size:calc(5px + 1.6vw);
+		animation-name: animateUp;
+		animation-duration:3s;
+		animation-fill-mode: forwards;
+		
+		
+	}
+
+	#special{
+		display:table;
+		font-family:'Oswald' , sans-serif;
+		color: white;
+		font-weight:bold;
+		position:absolute;
+		padding-top:58.5vh;
+		padding-left:8vw;
+		font-size:calc(5px + 1.4vw);
+		animation-name: animateUp;
+		animation-duration:3s;
+		animation-fill-mode: forwards;	
+		
+	}
+	
+	#last-item{
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 1.4vw);
+		display:block;
+		padding-top:10vh;
+		padding-left:5vh;
+	}
+	
+	#next{
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 1.4vw);
+		display:block;
+		padding-top:40vh;
+	}
+	
+	#next2{
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(2px + 1.1vw);
+		display:block;
+		padding-left:7vw;
+	}
+	
+	
+	 #second-page h1{
+		display:block;
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 5vw);
+		position:absolute;
+		padding-top:32vh;
+		animation-name: animateUp;
+		animation-duration:3s;
+		animation-fill-mode: forwards;  
+	 }
+	  
+	 #fourth-page h1{
+		display:block;
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 5vw);
+		position:absolute;
+		padding-top:32vh;
+		animation-name: animateUp;
+		animation-duration:3s;
+		animation-fill-mode: forwards;  
+	 }
+	 
+	 .academic{
+		 
+		 font-family:'Lato', sans-serif;
+		 font-size:calc(5px + 1.2vw);
+		 padding-top:38vh;
+		 padding-left:2vw;
+		 color:white;
+		 list-style:none;
+		 
+		 
+		 -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2.5s; /* Firefox < 16 */
+         -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+         animation: fadein 2.5s;
+		 
+	 }
+	 .academic li{
+		padding: 5px;
+	 }
+	 
+	 #ll{
+		 font-size:calc(5px + 2vw);
+		 font-family:'Ubuntu' , sans-serif;
+	 }
+	 
+	 
+	 #javaquery{
+		 border-radius:50%;
+		 width:10em;
+		 height:10em;
+		 background-color:white;
+		 margin-left:23.5vw;
+		 margin-top:5vh;
+		 -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2.5s; /* Firefox < 16 */
+         -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+         animation: fadein 2.5s;
+		
+	 }
+	 
+	 #javaquery p{
+		 color:gray;
+		 font-weight:600;
+		 padding-top:3.5em;
+		 text-align:center;
+		 display: table;
+		 padding-left:1.25em;
+		 
+	 }
+	 
+	 #javacpp{
+		 border-radius:50%;
+		 width:10em;
+		 height:10em;
+		 background-color:white;
+		 margin-left:7.5vw;
+		 margin-top:10vh;
+		 -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2.5s; /* Firefox < 16 */
+         -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+         animation: fadein 2.5s;
+		
+	 }
+	 
+	 #javacpp p{
+		 color:gray;
+		 font-weight:600;
+		 padding-top:3.5em;
+		 text-align:center;
+		 display: table;
+		 padding-left:2.5em;
+		 
+	 }
+	 
+	 #htmlcss{
+		 border-radius:50%;
+		 width:10em;
+		 height:10em;
+		 background-color:white;
+		 
+		 margin-top:10vh;
+		 -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2.5s; /* Firefox < 16 */
+         -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+         animation: fadein 2.5s;
+		
+	 }
+	 
+	 #htmlcss p{
+		 color:gray;
+		 font-weight:600;
+		 padding-top:3.5em;
+		 text-align:center;
+		 display: table;
+		 padding-left:2.5em;
+		 
+	 }
+	 
+	 #openweka{
+		 border-radius:50%;
+		 width:10em;
+		 height:10em;
+		 background-color:white;
+		 margin-left:12.5vw;
+		 margin-top:13vh;
+		 -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2.5s; /* Firefox < 16 */
+         -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+         animation: fadein 2.5s;
+		
+	 }
+	 
+	 #openweka p{
+		 color:gray;
+		 font-weight:600;
+		 padding-top:3.5em;
+		 text-align:center;
+		 display: table;
+		 padding-left:1.5em;
+		 
+	 }
+	 
+	 
+	 #others{
+		 border-radius:50%;
+		 width:10em;
+		 height:10em;
+		 background-color:white;
+		 margin-left:12vw;
+		 margin-top:13vh;
+		 -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2.5s; /* Firefox < 16 */
+         -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+         animation: fadein 2.5s;
+		
+	 }
+	 
+	 #others p{
+		 color:gray;
+		 font-weight:600;
+		 padding-top:3.5em;
+		 text-align:center;
+		 display: table;
+		 padding-left:1.15em;
+		 
+	 }
+	 
+	 #pro{
+		 color:white;
+		 font-size:calc(5px + 2.2vw);
+		 padding-top:8.5vw;
+		 font-weight:600;
+		 font-family:'Ubuntu' , sans-serif;
+		 -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+		 -moz-animation: fadein 2.5s; /* Firefox < 16 */
+		 -ms-animation: fadein 2.5s; /* Internet Explorer */
+		 -o-animation: fadein 2.5s; /* Opera < 12.1 */
+		 animation: fadein 2.5s;
+	 }
+	 
+	 
+	 
+.triangle-isosceles {
+  position:relative;
+  padding:1.5%;
+  margin:1vh 0 3vh;
+  color:#000;
+  /* css3 */
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#717375), to(#2D3033));
+  background:-moz-linear-gradient(#717375, #2D3033);
+  background:-o-linear-gradient(#717375, #2D3033);
+  background:linear-gradient(#717375, #2D3033);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+.triangle-isosceles .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 35vw;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    padding: 1vh 0;
+	margin-left:-2vw;
+	margin-top:2vh;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.triangle-isosceles:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-right {
+  top: -1vh;
+  left: 32vw;  
+}
+
+.tooltip-right::after {
+    content: "";
+    position: absolute;
+    top: 5vh;
+    right: 35vw;
+    margin-top: -1vh;
+    border-width: 5%;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+}
+
+
+#zit{
+	color:white;
+	font-size:calc(5px + 1.4vw);
+	font-weight: bold;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	margin-top:20vh;
+	animation-name: animateRight;
+	animation-duration:3s;
+	animation-fill-mode: forwards;
+
+}
+
+#taiba{
+	color:white;
+	font-size:calc(5px + 1.4vw);
+	font-weight: bold;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	margin-top:5vh;
+	margin-left:5vw;
+	animation-name: animateRight;
+	animation-duration:3s;
+	animation-fill-mode: forwards;  
+}
+
+#twen{
+	color:white;
+	font-size:calc(5px + 1.4vw);
+	font-weight: bold;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	margin-top:5vh;
+	margin-left:10vw;
+	animation-name: animateRight;
+	animation-duration:3s;
+	animation-fill-mode: forwards;  
+}
+
+
+#last{
+	font-weight:600;
+	font-family:'Ubuntu', sans-serif;
+	font-size:calc(5px + 2.5vw);
+	color:white;
+	margin-top:35vh;
+	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+		 -moz-animation: fadein 2.5s; /* Firefox < 16 */
+		 -ms-animation: fadein 2.5s; /* Internet Explorer */
+		 -o-animation: fadein 2.5s; /* Opera < 12.1 */
+		 animation: fadein 2.5s;
+	
+}
+	 @keyframes animateUp {
+		 
+		 0% {top:0vh;}
+		 100% {top:-35vh;}
+		 
+	 }
+	 
+	 @keyframes animateRight{
+		 0% {left:0vw;}
+		 100%{left:5vw;}
+	 }
+	 
+	 @keyframes fadein {
+		from { opacity: 0; }
+		to   { opacity: 1; }
+	}
+	
+	
+	
+	
+	
+	@media only screen and (max-width:480px){
+		body{font-size:9px;}
+		#first-page h1 {font-size:calc(9px + 3.5vw);}
+		#first-page h3 {font-size:calc(9px + 2.5vw);}
+		#last-item{font-size:calc(9px + 1.4vw);}
+		#next{font-size:calc(12px + 1.4vw);}
+		#second-page h1 {padding-top:60vh;}
+		#fourth-page h1 {padding-top:60vh; padding-left:6.5vw;}
+		#school{padding-top:70vh; padding-left:13vw;}
+		#special{ padding-top:75vh; padding-left:11vw;}
+		.academic{ padding-top:50vh;padding-left:7vw;}
+		#next2{font-size:calc(8px + 1.1vw);}
+		#javaquery{margin-left:38vw; margin-top:10vh;}
+		#htmlcss{margin-left:10vw;}
+		#openweka{margin-left:15vw}
+		#others{margin-left:18.5vw;}
+		#pro{padding-top:16vh;padding-left:25px; padding-right:0px;}
+		#javaquery p{padding-left:1em;}
+		.triangle-isosceles{padding:3% 0%;}
+		.triangle-isosceles .tooltiptext{width:45vw;}
+		#last{font-size:calc(8px + 2.5vw);}
+		#zit{margin-top:40vh;}
+		
+	}
