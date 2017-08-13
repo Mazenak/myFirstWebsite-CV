@@ -7,7 +7,7 @@ function main(){
 			$('#next2').remove();
 			$('#fourth-page , #f1 , #f2 , #f3').hide('drop', 1500);
 			setTimeout(function(){$('#fourth-page , #f1 , #f2 , #f3').remove()},2000);
-			setTimeout(function(){$('body').append('<div class="container"><div class="row"><div id= "last" class=" col-sm-offset-2 col-md-offset-1 col-xs-offset-1 col-md-10 col-sm-8 col-xs-10 text-center"><p>Thanks for enjoying my CV<br><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mazenak94@gmail.com"> E-mail: mazenak94@gmail.com<br><a href="tel:0992355357"> Phone Number: 0992355357</p></div></div></div>')},3000);
+			setTimeout(function(){$('body').append('<div class="container"><div class="row"><div id= "last" class=" col-sm-offset-2 col-md-offset-1 col-xs-offset-1 col-md-10 col-sm-8 col-xs-10 col-lg-10 col-lg-offset-0 text-center"><p>Thanks for enjoying my CV<br><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mazenak94@gmail.com"> E-mail: mazenak94@gmail.com<br><a href="tel:0992355357"> Phone Number: 0992355357</p></div></div></div>')},3000);
 		}
 	});
 	$(document).keydown(function(key){
@@ -44,7 +44,7 @@ function main(){
 			setTimeout(function(){$('#htmlcss').show()},4250);
 			setTimeout(function(){$('#others').show()},4750);
 			setTimeout(function(){$('#openweka').show()},4500);
-			setTimeout(function(){$('body').append('<div id="next2" class="container"><div  class="row"><div class="col-sm-4 col-md-4 col-xs-4 col-sm-offset-3 col-md-offset-3 col-xs-offset-3 text-center"><p>Next &rarr;</p></div></div></div>')} , 6000);
+			setTimeout(function(){$('body').append('<div id="next2" class="container"><div  class="row"><div class=" col-lg-4 col-lg-offset-1 col-sm-4 col-md-4 col-xs-4 col-sm-offset-3 col-md-offset-3 col-xs-offset-3 text-center"><p>Next &rarr;</p></div></div></div>')} , 6000);
 
 			countArrow++;
 		}
@@ -53,19 +53,19 @@ function main(){
 		if (parseInt(key.which,10) === 39 && firstPage === false && countArrow === 1){
 			$('#next').remove();
 			$('#first-page').remove();
-			$('body').append('<div id="second-page" class="container"><div class="row"><div class="col-xs-offset-4 col-xs-6 col-sm-offset-4 col-md-offset-2  col-md-6 col-sm-6  text-center"><h1>Education</h1></div></div></div>');
+			$('body').append('<div id="second-page" class="container"><div class="row"><div class="col-xs-offset-4 col-xs-6 col-sm-offset-4 col-md-offset-2  col-md-6 col-sm-6 col-lg-6 col-lg-offset-2 text-center"><h1>Education</h1></div></div></div>');
 			$('#second-page').hide();
 			$('#second-page').fadeIn('slow');
-			setTimeout(function(){$('#second-page').append('<div class="row"><div class="col-md-8 col-sm-10 col-xs-8 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 text-center"><p id="school">Damascus University Faculty of Information Technology Engineering</p></div></div>')},2000);
+			setTimeout(function(){$('#second-page').append('<div class="row"><div class="col-lg-6 col-lg-offset-0 col-md-8 col-sm-10 col-xs-8 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 text-center"><p id="school">Damascus University Faculty of Information Technology Engineering</p></div></div>')},2000);
 			setTimeout(function(){$('#school').hide()} , 2000);
 			setTimeout(function(){$('#school').fadeIn('slow')} , 2500);
-			setTimeout(function(){$('#second-page').append('<div  class="row"><div class="col-md-8 col-sm-10 col-xs-8 col-xs-offset-1 col-sm-offset-1 col-md-offset-1  text-center"><p id="special">Bachelor Degree of Information Technology Engineering Department of Artificial Intelligence</p></div></div>')},2500);
+			setTimeout(function(){$('#second-page').append('<div  class="row"><div class="col-lg-6 col-lg-offset-0 col-md-8 col-sm-10 col-xs-8 col-xs-offset-1 col-sm-offset-1 col-md-offset-1  text-center"><p id="special">Bachelor Degree of Information Technology Engineering Department of Artificial Intelligence</p></div></div>')},2500);
 			setTimeout(function(){$('#special').hide()} , 2500);
 			setTimeout(function(){$('#special').fadeIn('slow')} , 3000);
 			setTimeout(function(){makeList()} , 4000);
 			setTimeout(function(){$('.academic').hide()} , 4000);
 			setTimeout(function(){$('.academic').show()} , 5500);
-			setTimeout(function(){$('body').append('<div id="next2" class="container"><div  class="row"><div class="col-sm-4 col-md-4 col-xs-4 col-sm-offset-4 col-md-offset-3 col-xs-offset-4 text-center"><p>Next &rarr;</p></div></div></div>')} , 6000);
+			setTimeout(function(){$('body').append('<div id="next2" class="container"><div  class="row"><div class="col-lg-4 col-lg-offset-1 col-sm-4 col-md-4 col-xs-4 col-sm-offset-4 col-md-offset-3 col-xs-offset-4 text-center"><p>Next &rarr;</p></div></div></div>')} , 6000);
 			countArrow++;
 
 		}
@@ -90,16 +90,16 @@ function main(){
 
 
 function makeThird(){
-	$('body').append('<div class="container"><div class="row"><div id="javaquery" class="col-sm-4 col-md-4 col-xs-4"><p>JavaScript<br>JQuery</p></div></div></div>');
-	$('body').append('<div class="container"><div class="row"><div id="javacpp" class="col-sm-4 col-md-4 col-xs-4"><p>Java<br>C++</p></div><p id="pro" class="col-sm-3 col-md-3 col-xs-3 text-center">Programming Skills</p><div id="htmlcss" class="col-sm-4 col-md-4 col-xs-4"><p>HTML<br>CSS</p></div></div></div>');
-	$('body').append('<div class="container"><div class="row"><div id="openweka" class="col-sm-4 col-md-4 col-xs-4"><p>OpenCV<br>Weka</p></div><div id="others" class="col-sm-4 col-md-4 col-xs-4"><p>Photoshop<br>AutoCAD</p></div></div></div>');
+	$('body').append('<div class="container"><div class="row"><div id="javaquery" class="col-lg-4 col-sm-4 col-md-4 col-xs-4"><p>JavaScript<br>JQuery</p></div></div></div>');
+	$('body').append('<div class="container"><div class="row"><div id="javacpp" class="col-lg-4 col-sm-4 col-md-4 col-xs-4"><p>Java<br>C++</p></div><p id="pro" class="col-lg-3 col-sm-3 col-md-3 col-xs-3 text-center">Programming Skills</p><div id="htmlcss" class="col-lg-4 col-sm-4 col-md-4 col-xs-4"><p>HTML<br>CSS</p></div></div></div>');
+	$('body').append('<div class="container"><div class="row"><div id="openweka" class="col-lg-4 col-sm-4 col-md-4 col-xs-4"><p>OpenCV<br>Weka</p></div><div id="others" class="col-lg-4 col-sm-4 col-md-4 col-xs-4"><p>Photoshop<br>AutoCAD</p></div></div></div>');
 	
 }
 
 
 
 function makeList(){
-	var $list = $('#second-page').append('<div class="row"><div class="col-md-9 col-sm-10 col-xs-9 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 text-center"><ul class="academic"></ul></div></div>').find('ul');
+	var $list = $('#second-page').append('<div class="row"><div class="col-md-9 col-sm-10 col-xs-9 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-7 col-lg-offset-0 text-center"><ul class="academic"></ul></div></div>').find('ul');
 		$list.append('<li id="ll"><strong>Academic Projects</strong></li>');
 		$list.append('<li>Car plate number recognition system.</li>');
 		$list.append('<li>Bureau of university automation.</li>');
