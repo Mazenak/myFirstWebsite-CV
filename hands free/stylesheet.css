@@ -1,0 +1,469 @@
+	body{
+		background-image:url("mazen1.jpg") !important;
+		background-repeat:repeat !important;
+		background-size:cover !important;
+		background-color: #333 !important;
+		
+	}
+	#last-item{
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 1.4vw);
+		display:block;
+		padding-top:10vh;
+		padding-left:5vh;
+	}
+	
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	#skill{
+		padding-top:20vh;
+		margin-left:4vw;
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 1.2vw);
+	}
+	
+	#skill .row{
+		padding-top:7vh;
+	}
+	
+	.bar{	
+		background:-webkit-gradient(linear, 0 0, 0 100%, from(#C5C4C4), to(#8A8686));
+		background:-moz-linear-gradient(#C5C4C4, #8A8686);
+		background:-o-linear-gradient(#C5C4C4, #8A8686);
+		background:linear-gradient(#C5C4C4, #8A8686);
+		-webkit-border-radius:10px;
+		-moz-border-radius:10px;
+		border-radius:10px;
+	}
+	
+	
+	#first-page{
+		padding-top:30vh;
+	}
+	
+	#first-page h1{
+		display:table;
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 3.5vw);
+		transition: all .4s ease-in-out;
+		
+		
+	
+		
+	}
+	
+	#first-page h3{
+		display:table;
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 2.5vw);
+		transition: all .4s ease-in-out;
+		padding-left:4vw;
+	}
+	
+	#first-page h1:hover{
+		transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+		
+	
+	}
+	
+	#first-page h3:hover{
+		transform: scale(1.2);
+		-webkit-transform: scale(1.2);
+	}
+	
+	#school{
+		display:block;
+		font-family:'Oswald' , sans-serif;
+		color: white;
+		font-weight:bold;
+		position:absolute;
+		padding-top:52vh;
+		padding-left:9vw;
+		font-size:calc(5px + 1.6vw);
+		animation-name: animateUp;
+		animation-duration:3s;
+		animation-fill-mode: forwards;
+		
+		
+	}
+
+	#special{
+		display:table;
+		font-family:'Oswald' , sans-serif;
+		color: white;
+		font-weight:bold;
+		position:absolute;
+		padding-top:64.5vh;
+		padding-left:8vw;
+		font-size:calc(5px + 1.4vw);
+		animation-name: animateUp;
+		animation-duration:3s;
+		animation-fill-mode: forwards;	
+		
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	 #second-page h1{
+		display:block;
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 5vw);
+		position:absolute;
+		padding-top:28vh;
+		animation-name: animateUp;
+		animation-duration:3s;
+		animation-fill-mode: forwards;  
+	 }
+	  
+	  #t-page h1{
+		display:block;
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 4vw);
+		position:absolute;
+		padding-top:32vh;
+		animation-name: animateUp;
+		animation-duration:3s;
+		animation-fill-mode: forwards;  
+	 }
+	 
+	 #fourth-page h1{
+		display:block;
+		font-family:'Ubuntu' , sans-serif;
+		color: white;
+		font-weight:bold;
+		font-size:calc(5px + 5vw);
+		position:absolute;
+		padding-top:32vh;
+		animation-name: animateUp;
+		animation-duration:3s;
+		animation-fill-mode: forwards;  
+	 }
+	 
+	 .academic{
+		 
+		 font-family:'Lato', sans-serif;
+		 font-size:calc(5px + 1.2vw);
+		 padding-top:42vh;
+		 padding-left:2vw;
+		 color:white;
+		 list-style:none;
+		 -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: fadein 2.5s; /* Firefox < 16 */
+         -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+         animation: fadein 2.5s;
+		 
+	 }
+	 .academic li{
+		padding: 5px;
+	 }
+	 
+	 #ll{
+		 font-size:calc(5px + 2vw);
+		 font-family:'Ubuntu' , sans-serif;
+	 }
+	 
+	 
+	
+	
+	  .list{
+		  
+		  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+		 -moz-animation: fadein 1s; /* Firefox < 16 */
+		 -ms-animation: fadein 1s; /* Internet Explorer */
+		 -o-animation: fadein 1s; /* Opera < 12.1 */
+		 animation: fadein 1s;
+		  
+	  }
+	 
+	 
+.triangle-isosceles {
+  position:relative;
+  padding:1.5%;
+  margin:1vh 0 3vh;
+  color:#000;
+  /* css3 */
+  background:-webkit-gradient(linear, 0 0, 0 100%, from(#717375), to(#2D3033));
+  background:-moz-linear-gradient(#717375, #2D3033);
+  background:-o-linear-gradient(#717375, #2D3033);
+  background:linear-gradient(#717375, #2D3033);
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+.triangle-isosceles .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    width: 35vw;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    padding: 1vh 0;
+	margin-left:-2vw;
+	margin-top:2vh;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.triangle-isosceles:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip-right {
+  top: -1vh;
+  left: 32vw;  
+}
+
+.tooltip-right::after {
+    content: "";
+    position: absolute;
+    top: 5vh;
+    right: 35vw;
+    margin-top: -1vh;
+    border-width: 5%;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+}
+
+
+#zit{
+	color:white;
+	font-size:calc(5px + 1.4vw);
+	font-weight: bold;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	margin-top:25vh;
+	animation-name: animateRight;
+	animation-duration:3s;
+	animation-fill-mode: forwards;
+
+}
+
+#taiba{
+	color:white;
+	font-size:calc(5px + 1.4vw);
+	font-weight: bold;
+	text-align:center;	
+	font-family: 'Lato', sans-serif;
+	margin-top:5vh;
+	margin-left:5vw;
+	animation-name: animateRight;
+	animation-duration:3s;
+	animation-fill-mode: forwards;  
+}
+
+#twen{
+	color:white;
+	font-size:calc(5px + 1.4vw);
+	font-weight: bold;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	margin-top:5vh;
+	margin-left:10vw;
+	animation-name: animateRight;
+	animation-duration:3s;
+	animation-fill-mode: forwards;  
+}
+
+
+#last{
+	font-weight:600;
+	font-family:'Ubuntu', sans-serif;
+	font-size:calc(5px + 2.5vw);
+	color:white;
+	margin-top:35vh;
+	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2.5s; /* Firefox < 16 */
+	-ms-animation: fadein 2.5s; /* Internet Explorer */
+	-o-animation: fadein 2.5s; /* Opera < 12.1 */
+	animation: fadein 2.5s;
+	
+}
+
+
+.progress{
+	border-radius: 20px;
+	height: 25px;
+}
+.skill-name{
+	text-transform: uppercase;
+	margin-left: 7px;
+	padding-left:7px;
+	padding-top: 2.5px;
+	float:left;
+	font-family: 'Ubuntu', sans-serif;
+    font-size: calc(3px + 0.8vw);
+    color: black;
+}
+
+
+
+.progress  .progress-bar{
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1.5s;
+}
+
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+
+	 @keyframes animateUp {
+		 
+		 0% {top:0vh;}
+		 100% {top:-35vh;}
+		 
+	 }
+	 
+	 @keyframes animateRight{
+		 0% {left:0vw;}
+		 100%{left:5vw;}
+	 }
+	 
+	 @keyframes fadein {
+		from { opacity: 0; }
+		to   { opacity: 1; }
+	}
+	
+	@media only screen and (max-width:1367px)  and (min-width:1025px){
+		#second-page h1 {padding-top:35vh; margin-left:-3vw; font-size:calc(19px + 5vw);}
+		#t-page h1 {padding-top:35vh;}
+		#fourth-page h1 {padding-top:40vh;}
+	}
+	@media only screen and (max-width:1024px)  and (min-width:769px){
+		body{font-size:20px;}
+		#first-page h1 {font-size:calc(16px + 3.5vw);}
+		#first-page h3 {font-size:calc(16px + 2.5vw);}
+		#last-item{font-size:calc(19px + 1.4vw); padding-left:15vw;}
+		
+		#second-page h1 {padding-top:45vh; padding-left:12.5vw; font-size:calc(19px + 5vw);}
+		#t-page h1 {padding-top:45vh; padding-left:15vw; font-size:calc(16px + 3.5vw);}
+		#school{padding-top:53vh;font-size:calc(17px + 1.6vw); padding-left:10vw;}
+		#special{ padding-top:62vh;font-size:calc(17px + 1.4vw);padding-left:10vw;}
+		.academic{ font-size:calc(16px + 1.2vw);padding-top:40vh; padding-left:5vw;}
+		#ll{font-size:calc(18px + 2vw);}
+		#fourth-page h1 {padding-top:45vh; padding-left:15vw; font-size:calc(19px + 5vw);}
+		#zit{margin-top:25vh;font-size:calc(19px + 1.4vw);}
+		#taiba{font-size:calc(19px + 1.4vw);}
+		#twen{font-size:calc(19px + 1.4vw);}
+		.triangle-isosceles{padding:2% 1%;}
+		.triangle-isosceles .tooltiptext{width:45vw;}
+		#last{font-size:calc(19px + 2.5vw);}
+		
+	}
+	
+	
+	@media only screen and (max-width:768px)  and (min-width:481px){
+		body{font-size:14px;}
+		#first-page h1 {font-size:calc(13px + 3.5vw);}
+		#first-page h3 {font-size:calc(13px + 2.5vw);}
+		#last-item{font-size:calc(13px + 1.4vw); padding-left:15vw;}
+		#second-page h1 {padding-top:60vh;font-size:calc(13px + 5vw);}
+		#t-page h1 {padding-top:50vh;font-size:calc(8px + 4vw);margin-left:-15vw;}
+		#school{padding-top:68vh;font-size:calc(13px + 1.6vw);padding-left:2vw;}
+		#special{ padding-top:76vh;font-size:calc(13px + 1.4vw);padding-left:2vw;}
+		.academic{ font-size:calc(13px + 1.2vw);padding-top:50vh;}
+		#ll{font-size:calc(13px + 2vw);}
+		#fourth-page h1 {padding-top:60vh;font-size:calc(13px + 5vw);}
+		#zit{margin-top:45vh;font-size:calc(10px + 1.4vw);}
+		#taiba{font-size:calc(10px + 1.4vw);}
+		#twen{font-size:calc(10px + 1.4vw);}
+		.triangle-isosceles{padding:2% 1%;}
+		.triangle-isosceles .tooltiptext{width:45vw;}
+		#last{font-size:calc(10px + 2.5vw);}
+		
+		
+		
+	}
+	
+	
+	@media only screen and (max-width:1024px) and (orientation:landscape){
+		#first-page h1 {font-size:calc(10px + 3.5vw);}
+		#first-page h3 {font-size:calc(10px + 2.5vw);}
+		#last-item{font-size:calc(10px + 1.4vw); padding-left:8vw;}
+		#second-page h1 {padding-top:35vh; }
+		#t-page h1 {padding-top:35vh; font-size:calc(8px + 4vw); padding-left:0vw;}
+		#school{padding-top:49vh; padding-left:15vw;}
+		#special{ padding-top:62vh; padding-left:15vw;}
+		.academic{ padding-top:47vh;padding-left:10vw;}
+		#fourth-page h1 {padding-top:35vh;}
+		#zit{margin-top:20vh;}
+	}
+	
+	
+	@media only screen and (max-width:768px) and (orientation:landscape){
+		body{font-size:9px;}
+		#first-page h1 {font-size:calc(9px + 3.5vw);}
+		#first-page h3 {font-size:calc(9px + 2.5vw);}
+		#last-item{font-size:calc(9px + 1.4vw);padding-left:0vw;}
+		#second-page h1 {padding-top:30vh; padding-left:8vw;}
+		#t-page h1 {padding-top:30vh; padding-left:10vw;}
+		#school{padding-top:50vh; padding-left:15vw;}
+		#special{ padding-top:77vh; padding-left:15vw;}
+		.academic{ padding-top:72vh;padding-left:10vw;}
+		#fourth-page h1 {padding-top:30vh;}
+		#zit{margin-top:28vh;}
+		#last{font-size:calc(8px + 2.5vw);padding-right:22vw;}
+	
+	}
+	
+	
+	@media only screen and (max-width:480px){
+		body{font-size:9px;}
+		#first-page h1 {font-size:calc(7px + 3.5vw);}
+		#first-page h3 {font-size:calc(7px + 2.5vw);}
+		#last-item{font-size:calc(9px + 1.4vw);}
+		#second-page h1 {padding-top:60vh; padding-left:5vw;}
+		#t-page h1 {padding-top:50vh;}
+		#fourth-page h1 {padding-top:60vh; padding-left:6.5vw;}
+		#school{padding-top:70vh; padding-left:13vw;}
+		#special{ padding-top:75vh; padding-left:11vw;}
+		.academic{ padding-top:50vh;padding-left:10vw;}
+		.triangle-isosceles{padding:3% 0%;}
+		.triangle-isosceles .tooltiptext{width:45vw;}
+		#last{font-size:calc(5px + 2.4vw);}
+		#zit{margin-top:40vh;}
+		
+	}
+	
+	
+.ui-body-c{
+	
+	background-image:url("mazen1.jpg") !important;
+		background-repeat:repeat !important;
+		background-size:cover !important;
+		background-color: #333 !important;
+}
+	
