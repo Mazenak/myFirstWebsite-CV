@@ -12,13 +12,10 @@
 		font-size:calc(5px + 1.4vw);
 		display:block;
 		padding-top:10vh;
-		padding-left:5vh;
+		padding-left:10vh;
 	}
 	
-	.row {
-		margin-right: 0;
-		margin-left: 0;
-	}
+
 	
 	#skill{
 		padding-top:20vh;
@@ -89,7 +86,7 @@
 		color: white;
 		font-weight:bold;
 		position:absolute;
-		padding-top:52vh;
+		padding-top:55vh;
 		padding-left:9vw;
 		font-size:calc(5px + 1.6vw);
 		animation-name: animateUp;
@@ -105,7 +102,7 @@
 		color: white;
 		font-weight:bold;
 		position:absolute;
-		padding-top:64.5vh;
+		padding-top:67.5vh;
 		padding-left:8vw;
 		font-size:calc(5px + 1.4vw);
 		animation-name: animateUp;
@@ -141,7 +138,8 @@
 		font-weight:bold;
 		font-size:calc(5px + 4vw);
 		position:absolute;
-		padding-top:32vh;
+		padding-top:38vh;
+		margin-left:-3.5vw;
 		animation-name: animateUp;
 		animation-duration:3s;
 		animation-fill-mode: forwards;  
@@ -164,7 +162,7 @@
 		 
 		 font-family:'Lato', sans-serif;
 		 font-size:calc(5px + 1.2vw);
-		 padding-top:42vh;
+		 padding-top:45vh;
 		 padding-left:2vw;
 		 color:white;
 		 list-style:none;
@@ -261,7 +259,7 @@
 	font-weight: bold;
 	text-align:center;
 	font-family: 'Lato', sans-serif;
-	margin-top:25vh;
+	margin-top:30vh;
 	animation-name: animateRight;
 	animation-duration:3s;
 	animation-fill-mode: forwards;
@@ -301,6 +299,7 @@
 	font-size:calc(5px + 2.5vw);
 	color:white;
 	margin-top:35vh;
+	margin-left:0vw;
 	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 2.5s; /* Firefox < 16 */
 	-ms-animation: fadein 2.5s; /* Internet Explorer */
@@ -312,13 +311,13 @@
 
 .progress{
 	border-radius: 20px;
-	height: 25px;
+	height: 4vh;
 }
 .skill-name{
 	text-transform: uppercase;
 	margin-left: 7px;
 	padding-left:7px;
-	padding-top: 2.5px;
+	padding-top: 0.5vh;
 	float:left;
 	font-family: 'Ubuntu', sans-serif;
     font-size: calc(3px + 0.8vw);
@@ -363,46 +362,48 @@
 		#fourth-page h1 {padding-top:40vh;}
 	}
 	@media only screen and (max-width:1024px)  and (min-width:769px){
-		body{font-size:20px;}
-		#first-page h1 {font-size:calc(16px + 3.5vw);}
-		#first-page h3 {font-size:calc(16px + 2.5vw);}
-		#last-item{font-size:calc(19px + 1.4vw); padding-left:15vw;}
+		#first-page h1 {font-size:calc(30px + 3.5vw);}
+		#first-page h3 {font-size:calc(30px + 2.5vw);}
+		#last-item{font-size:calc(30px + 1.4vw); padding-left:22vw;}
+		#second-page h1 {padding-top:40vh; padding-left:8vw; font-size:calc(40px + 5vw);}
+		#t-page h1 {padding-top:45vh; padding-left:5vw; font-size:calc(34px + 3.5vw);}
+		#skill{font-size:calc(20px + 1.2vw);}
+		.skill-name{ font-size: calc(22px + 0.8vw);}
+		#school{padding-top:51.5vh;font-size:calc(26px + 1.6vw); padding-left:10vw;}
+		#special{ padding-top:67.5vh;font-size:calc(26px + 1.4vw);padding-left:10vw;}
+		.academic{ font-size:calc(20px + 1.2vw);padding-top:48vh; padding-left:5vw;}
+		#ll{font-size:calc(30px + 2vw);}
 		
-		#second-page h1 {padding-top:45vh; padding-left:12.5vw; font-size:calc(19px + 5vw);}
-		#t-page h1 {padding-top:45vh; padding-left:15vw; font-size:calc(16px + 3.5vw);}
-		#school{padding-top:53vh;font-size:calc(17px + 1.6vw); padding-left:10vw;}
-		#special{ padding-top:62vh;font-size:calc(17px + 1.4vw);padding-left:10vw;}
-		.academic{ font-size:calc(16px + 1.2vw);padding-top:40vh; padding-left:5vw;}
-		#ll{font-size:calc(18px + 2vw);}
-		#fourth-page h1 {padding-top:45vh; padding-left:15vw; font-size:calc(19px + 5vw);}
-		#zit{margin-top:25vh;font-size:calc(19px + 1.4vw);}
-		#taiba{font-size:calc(19px + 1.4vw);}
-		#twen{font-size:calc(19px + 1.4vw);}
-		.triangle-isosceles{padding:2% 1%;}
+		#fourth-page h1 {padding-top:45vh; padding-left:8vw; font-size:calc(36px + 5vw);}
+		#zit{margin-top:25vh;font-size:calc(22px + 1.4vw);}
+		#taiba{font-size:calc(22px + 1.4vw);}
+		#twen{font-size:calc(22px + 1.4vw);}
+		.triangle-isosceles{padding:3% 1%;}
 		.triangle-isosceles .tooltiptext{width:45vw;}
-		#last{font-size:calc(19px + 2.5vw);}
+		#last{font-size:calc(24px + 2.5vw); margin-left:6vw;}
 		
 	}
 	
 	
 	@media only screen and (max-width:768px)  and (min-width:481px){
-		body{font-size:14px;}
-		#first-page h1 {font-size:calc(13px + 3.5vw);}
-		#first-page h3 {font-size:calc(13px + 2.5vw);}
-		#last-item{font-size:calc(13px + 1.4vw); padding-left:15vw;}
-		#second-page h1 {padding-top:60vh;font-size:calc(13px + 5vw);}
-		#t-page h1 {padding-top:50vh;font-size:calc(8px + 4vw);margin-left:-15vw;}
-		#school{padding-top:68vh;font-size:calc(13px + 1.6vw);padding-left:2vw;}
-		#special{ padding-top:76vh;font-size:calc(13px + 1.4vw);padding-left:2vw;}
-		.academic{ font-size:calc(13px + 1.2vw);padding-top:50vh;}
-		#ll{font-size:calc(13px + 2vw);}
-		#fourth-page h1 {padding-top:60vh;font-size:calc(13px + 5vw);}
-		#zit{margin-top:45vh;font-size:calc(10px + 1.4vw);}
-		#taiba{font-size:calc(10px + 1.4vw);}
-		#twen{font-size:calc(10px + 1.4vw);}
-		.triangle-isosceles{padding:2% 1%;}
+		#first-page h1 {font-size:calc(20px + 3.5vw);padding-left:3vw;}
+		#first-page h3 {font-size:calc(20px + 2.5vw); padding-left:5vw;}
+		#last-item{font-size:calc(20px + 1.4vw); padding-left:15vw;}
+		#second-page h1 {padding-top:40vh;font-size:calc(35px + 5vw);margin-left:-6vw;}
+		#t-page h1 {padding-top:40vh;font-size:calc(20px + 4vw);margin-left:-16vw;}
+		#skill{font-size:calc(18px + 1.2vw);}
+		.skill-name{ font-size: calc(13px + 0.8vw);}
+		#school{padding-top:52.5vh;font-size:calc(24px + 1.6vw);padding-left:2vw;}
+		#special{ padding-top:67.5vh;font-size:calc(24px + 1.4vw);padding-left:2vw;}
+		.academic{ font-size:calc(17px + 1.2vw);padding-top:50vh;}
+		#ll{font-size:calc(24px + 2vw);}
+		#fourth-page h1 {padding-top:40vh;font-size:calc(26px + 5vw); margin-left:-3vw;}
+		#zit{margin-top:25vh;font-size:calc(15px + 1.4vw);}
+		#taiba{font-size:calc(15px + 1.4vw);}
+		#twen{font-size:calc(15px + 1.4vw);}
+		.triangle-isosceles{padding:3% 1%;}
 		.triangle-isosceles .tooltiptext{width:45vw;}
-		#last{font-size:calc(10px + 2.5vw);}
+		#last{font-size:calc(18px + 2.5vw); margin-left:6vw;}
 		
 		
 		
@@ -410,52 +411,93 @@
 	
 	
 	@media only screen and (max-width:1024px) and (orientation:landscape){
-		#first-page h1 {font-size:calc(10px + 3.5vw);}
-		#first-page h3 {font-size:calc(10px + 2.5vw);}
-		#last-item{font-size:calc(10px + 1.4vw); padding-left:8vw;}
-		#second-page h1 {padding-top:35vh; }
-		#t-page h1 {padding-top:35vh; font-size:calc(8px + 4vw); padding-left:0vw;}
-		#school{padding-top:49vh; padding-left:15vw;}
-		#special{ padding-top:62vh; padding-left:15vw;}
-		.academic{ padding-top:47vh;padding-left:10vw;}
+		#first-page h1 {font-size:calc(26px + 3.5vw);}
+		#first-page h3 {font-size:calc(22px + 2.5vw);}
+		#last-item{font-size:calc(20px + 1.4vw); padding-left:15vw;}
+		#second-page h1 {padding-top:35vh; padding-left:6vw;}
+		#school{padding-top:53vh; padding-left:6vw;}
+		#special{ padding-top:72vh; padding-left:6vw;}
+		.academic{ padding-top:62vh;padding-left:0vw;}
+		#t-page h1 {padding-top:40vh; font-size:calc(20px + 4vw); padding-left:5vw;}
+		#skill{font-size:calc(18px + 1.2vw);}
+		.skill-name{ font-size: calc(15px + 0.8vw); padding-top:1vh;}
+		.progress{height:5vh;}
+		#last{margin-left:5vw;}
 		#fourth-page h1 {padding-top:35vh;}
-		#zit{margin-top:20vh;}
+		#zit{margin-top:25vh; font-size:calc(15px + 1.4vw);}
+		#taiba{font-size:calc(15px + 1.4vw);}
+		#twen{font-size:calc(15px + 1.4vw);}
+		.triangle-isosceles{padding:4% 0.5%;}
+		.triangle-isosceles .tooltiptext{width:45vw;}
 	}
 	
 	
 	@media only screen and (max-width:768px) and (orientation:landscape){
-		body{font-size:9px;}
 		#first-page h1 {font-size:calc(9px + 3.5vw);}
 		#first-page h3 {font-size:calc(9px + 2.5vw);}
-		#last-item{font-size:calc(9px + 1.4vw);padding-left:0vw;}
-		#second-page h1 {padding-top:30vh; padding-left:8vw;}
-		#t-page h1 {padding-top:30vh; padding-left:10vw;}
-		#school{padding-top:50vh; padding-left:15vw;}
-		#special{ padding-top:77vh; padding-left:15vw;}
-		.academic{ padding-top:72vh;padding-left:10vw;}
-		#fourth-page h1 {padding-top:30vh;}
-		#zit{margin-top:28vh;}
-		#last{font-size:calc(8px + 2.5vw);padding-right:22vw;}
+		#last-item{font-size:calc(9px + 1.4vw);margin-left:-19.5vw;}
+		#second-page h1 {padding-top:30vh; padding-left:3vw; font-size:calc(15px + 5vw);}
+		#t-page h1 {padding-top:35vh; padding-left:10vw; }
+		#skill{font-size:calc(15px + 1.2vw);}
+		.skill-name{ font-size: calc(7px + 0.8vw); padding-top:0vh;}
+		.progress{height:6vh;}
+		#school{padding-top:53vh; padding-left:0vw; margin-left:-5vw; font-size:calc(7px + 3vw);}
+		#special{ padding-top:79vh; padding-left:0vw; margin-left:-8vw; font-size:calc(7px + 3vw);}
+		.academic{ padding-top:72vh;padding-left:0vw; margin-left:-12vw; font-size:calc(4px + 3vw);}
+		#fourth-page h1 {padding-top:30vh; font-size:calc(15px + 5vw);}
+		#zit{margin-top:25vh; font-size:calc(10px + 1.4vw);}
+		#taiba{font-size:calc(10px + 1.4vw);}
+		#twen{font-size:calc(10px + 1.4vw);}
+		.triangle-isosceles{padding:3% 0.5%;}
+		.triangle-isosceles .tooltiptext{width:45vw;}
+		#last{font-size:calc(8px + 2.5vw);padding-right:26vw;}
 	
 	}
 	
 	
-	@media only screen and (max-width:480px){
-		body{font-size:9px;}
-		#first-page h1 {font-size:calc(7px + 3.5vw);}
-		#first-page h3 {font-size:calc(7px + 2.5vw);}
-		#last-item{font-size:calc(9px + 1.4vw);}
-		#second-page h1 {padding-top:60vh; padding-left:5vw;}
-		#t-page h1 {padding-top:50vh;}
-		#fourth-page h1 {padding-top:60vh; padding-left:6.5vw;}
-		#school{padding-top:70vh; padding-left:13vw;}
-		#special{ padding-top:75vh; padding-left:11vw;}
-		.academic{ padding-top:50vh;padding-left:10vw;}
-		.triangle-isosceles{padding:3% 0%;}
+	@media only screen and (max-width:480px) and (min-width:361px){
+		#first-page h1 {font-size:calc(26px + 3.5vw); padding-left:10vw;}
+		#first-page h3 {font-size:calc(22px + 2.5vw); padding-left:10vw;}
+		#last-item{font-size:calc(18px + 1.4vw); padding-left:12.5vw; }
+		#second-page h1 {padding-top:35vh; margin-left:-7vw; font-size:calc(26px + 5vw);}
+		#t-page h1 {padding-top:40vh; font-size:calc(23px + 4vw); margin-left:-2vw;}
+		#skill{font-size:calc(15px + 1.2vw);}
+		.skill-name{ font-size: calc(11px + 0.8vw); padding-top:0vh;}
+		#fourth-page h1 {padding-top:40vh;padding-left:0vw; margin-left:-5vw; font-size:calc(21px + 4vw);}
+		#school{padding-top:47vh; padding-left:5vw; margin-left:3.9vw; font-size:calc(11px + 1.6vw); }
+		#special{ padding-top:62vh;padding-left:3vw; margin-left:3.9vw; font-size:calc(11px + 1.6vw);}
+		.academic{ padding-top:45vh;padding-left:2vw;margin-left:3vw; font-size:calc(11px + 1.1vw);}
+		#ll{font-size:calc(15px + 1.6vw);}
+		.triangle-isosceles{padding:5% 0.5%;}
 		.triangle-isosceles .tooltiptext{width:45vw;}
-		#last{font-size:calc(5px + 2.4vw);}
-		#zit{margin-top:40vh;}
+		#last{font-size:calc(10px + 2.4vw); padding:0vw; margin-left:6vw;}
+		#zit{margin-top:25vh; font-size:calc(10px + 1.4vw);}  
+		#taiba{font-size:calc(10px + 1.4vw);}
+		#twen{font-size:calc(10px + 1.4vw);}
 		
+		
+	}
+	
+	
+	@media only screen and (max-width:360px){
+		#first-page h1 {font-size:calc(28px + 3vw);padding-left:7vw;}
+		#first-page h3 {font-size:calc(22px + 2.5vw); padding-left:7vw;}
+		#last-item{font-size:calc(15px + 1.4vw); }
+		#second-page h1 {padding-top:40vh; margin-left:-7vw; font-size:calc(26px + 5vw);}
+		#t-page h1 {padding-top:40vh; font-size:calc(20px + 4vw); margin-left:-2.5vw; padding-left:0vw;}
+		#fourth-page h1 {padding-top:40vh;padding-left:0vw; margin-left:-5vw; font-size:calc(20px + 4vw);}
+		#school{padding-top:53vh;padding-left:12vw; font-size:calc(13px + 1.6vw);}
+		#special{ padding-top:67vh; padding-left:7vw; font-size:calc(11px + 1.6vw);}
+		.academic{ padding-top:50vh;padding-left:6vw; font-size:calc(9px + 1.2vw);}
+		#ll{font-size:calc(18px + 1.6vw);}
+		#skill{font-size:calc(12px + 1.2vw);  }
+		.skill-name{ font-size: calc(10px + 0.8vw);padding-top:0vh;}
+		.triangle-isosceles{padding:6% 0.5%;}
+		.triangle-isosceles .tooltiptext{width:45vw;}
+		#last{font-size:calc(10px + 2.4vw); padding:0vw;  margin-left:5vw;}
+		#zit{margin-top:20vh; font-size:calc(10px + 1.4vw);}  
+		#taiba{font-size:calc(10px + 1.4vw);}
+		#twen{font-size:calc(10px + 1.4vw);} 
 	}
 	
 	
